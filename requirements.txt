@@ -1,0 +1,16 @@
+# Relevant requirements from buhmm
+Cython
+iterutils
+numpy
+six
+
+# Additional requirements needed for vbench
+ghp-import
+sphinx
+sqlalchemy
+#numpy
+scipy
+pandas
+matplotlib
+seaborn
+

@@ -1,0 +1,7 @@
+[submodule "vbench"]
+	path = vbench
+	url = https://github.com/chebee7i/vbench
+	branch = master2
+[submodule "buhmm"]
+	path = buhmm
+	url = https://github.com/chebee7i/buhmm
