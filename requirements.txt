@@ -14,3 +14,7 @@ pandas
 matplotlib
 seaborn
 
+# Needed to build docs.
+sphinx-rtd-theme
+ipython
+sphinxcontrib-napoleon

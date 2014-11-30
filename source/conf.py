@@ -6,10 +6,18 @@
 import sys
 import os
 
+import sphinx_rtd_theme
+
 # -- General configuration -----------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.  sphinxext.
+extensions = [
+              'sphinx.ext.autodoc',
+              'sphinx.ext.intersphinx',
+              'sphinxcontrib.napoleon',
+              'IPython.sphinxext.ipython_console_highlighting',
+             ]
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -79,7 +87,9 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'default'
+html_theme = "sphinx_rtd_theme"
+
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The style sheet to use for HTML and HTML Help pages. A file of that name
 # must exist either in Sphinx' static/ path, or in one of the custom paths
