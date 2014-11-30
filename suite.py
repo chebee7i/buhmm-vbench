@@ -42,8 +42,7 @@ BUILD = """
 python setup.py build_ext --inplace
 """
 
-START_DATE = datetime(2014, 9, 1)
-
+START_DATE = datetime(2014, 10, 30)
 RST_BASE = 'source'
 
 
