@@ -8,7 +8,7 @@ from __future__ import division
 import buhmm
 import cmpy
 
-m = machines.Even()
+m = cmpy.machines.Even()
 m.set_start_node('A')
 data = m.symbols(1e6)
 
