@@ -4,4 +4,4 @@
 [submodule "vbench"]
 	path = vbench
 	url = https://github.com/chebee7i/vbench
-	branch = master
+	branch = master2
